@@ -6,6 +6,13 @@
     <title>CV Ezhie</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <style>
+        html{
+            scroll-behavior: smooth;
+        }
+    </style>
+    
 </head>
 <body class="bg-primary">
     
@@ -15,31 +22,32 @@
             <h1 class="text-4xl font-medium">Ezhie</h1>
             
             <div class="flex space-x-10">
-                <button>
-                    <h2 class="text-base">About Me</h2>
-                </button>
                 
-                <button>
+                <a href="#section1">
+                    <h2 class="text-base">About Me</h2>
+                </a>
+                
+                <a href="#section2">
                     <h2 class="text-base">Education</h2>
-                </button>
+                </a>
 
-                <button>
+                <a href="#section3">
                     <h2 class="text-base">Projects</h2>
-                </button>
+                </a>
 
-                <button>
+                <a href="#section4">
                     <h2 class="text-base">Experience</h2>
-                </button>
+                </a>
 
-                <button>
+                <a href="#section5">
                     <h2 class="text-base">Contact</h2>
-                </button>
+                </a>
             </div>
         </div>
     </nav>
 
     <!-- Welcome -->
-    <div data-aos="fade-right" data-aos-duration="1000" class="mt-44 font-main max-w-7xl mx-auto  text-secondary">
+    <div id="section1" data-aos="fade-right" data-aos-duration="1000" class="mt-44 font-main max-w-7xl mx-auto  text-secondary">
         <div class="w-full">
             <div class="text-3xl pb-2 border-b w-full">
                 Welcome
@@ -63,7 +71,7 @@
     </div>
 
     <!-- Education -->
-    <div data-aos="fade-right" data-aos-duration="1000" class="mt-32 pt-20 pb-36 font-main bg-secondary text-primary">
+    <div id="section2" data-aos="fade-right" data-aos-duration="1000" class="mt-32 pt-20 pb-36 font-main bg-secondary text-primary">
         <div class="max-w-7xl mx-auto">
             <div class="text-3xl border-b pb-2 border-primary">
                 Education
@@ -90,7 +98,7 @@
     </div>
 
     <!-- Experience -->
-    <div data-aos="fade-right" data-aos-duration="1000" class="my-24 font-main max-w-7xl mx-auto text-secondary">
+    <div id="section3" data-aos="fade-right" data-aos-duration="1000" class="my-24 font-main max-w-7xl mx-auto text-secondary">
         <div class="">
             <div class="text-3xl border-b pb-2">
                 Experience
@@ -111,7 +119,7 @@
                             Liason Officer TC CUP (2020)
                         </li>
                         <li>
-                            Staff of PSDU in VSNMC (2020 - now)
+                            Staff of PSDU in VSNMC (2020 - 2021)
                         </li>
                         <li>
                             Staff of KDPM in HMTC (2021 - now)
@@ -133,7 +141,7 @@
     </div>
 
     <!-- Projects -->
-    <div data-aos="fade-right" data-aos-duration="1000" class="mt-32 pt-20 pb-36 font-main bg-secondary text-primary">
+    <div id="section4" data-aos="fade-right" data-aos-duration="1000" class="mt-32 pt-20 pb-36 font-main bg-secondary text-primary">
         <div class="max-w-7xl mx-auto">
             <div class="text-3xl border-b border-black pb-2">
                 Projects
@@ -151,7 +159,7 @@
 
 
     <!-- Contact -->
-    <div  class="my-24 font-main max-w-7xl mx-auto text-secondary">
+    <div id="section5" class="my-24 font-main max-w-7xl mx-auto text-secondary">
         <div class="">
             <div class="border-b text-3xl">
                 Contact
